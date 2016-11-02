@@ -1,0 +1,5 @@
+name: hello
+type: yaml
+mood:
+    name: foo
+    type: bar
