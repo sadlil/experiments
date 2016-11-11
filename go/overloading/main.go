@@ -1,5 +1,9 @@
 package main
 
+// This is a fun code never take it seriously.
+// FunctionNames are written with unicode values
+// that looks like same. But they are not same.
+
 import (
 	"fmt"
 )
