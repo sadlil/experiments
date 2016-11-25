@@ -1,0 +1,13 @@
+app:
+    version:    "1"
+    name:       MySuperApp
+    configLocation:   http://configaddress
+
+test_url:
+  -
+    name:       siteName1
+    url:        http://siteUrl1
+  -
+    name:       siteName2
+    url:        http://siteUrl2
+    proxy_port: 5678
