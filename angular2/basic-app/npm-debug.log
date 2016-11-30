@@ -1,0 +1,174 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/sadlil/.nvm/versions/node/v4.5.0/bin/node',
+1 verbose cli   '/home/sadlil/.nvm/versions/node/v4.5.0/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose readDependencies loading dependencies from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/package.json
+5 warn package.json angular2-basic@1.0.0 No description
+6 warn package.json angular2-basic@1.0.0 No repository field.
+7 warn package.json angular2-basic@1.0.0 No README data
+8 verbose install where, deps [ '/home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app',
+8 verbose install   [ 'angular2',
+8 verbose install     'systemjs',
+8 verbose install     'es6-promise',
+8 verbose install     'es6-shim',
+8 verbose install     'reflect-metadata',
+8 verbose install     'rxjs',
+8 verbose install     'zone.js',
+8 verbose install     'concurrently',
+8 verbose install     'lite-server',
+8 verbose install     'typescript' ] ]
+9 verbose install where, peers [ '/home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app',
+9 verbose install   [] ]
+10 verbose installManyTop reading for lifecycle /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/package.json
+11 info preinstall angular2-basic@1.0.0
+12 verbose installManyTop reading scoped package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/angular2/package.json
+13 verbose installManyTop reading scoped package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/concurrently/package.json
+14 verbose installManyTop reading scoped package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/es6-promise/package.json
+15 verbose installManyTop reading scoped package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/es6-shim/package.json
+16 verbose installManyTop reading scoped package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/has-unicode/package.json
+17 verbose installManyTop reading scoped package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/lite-server/package.json
+18 verbose installManyTop reading scoped package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/minimist/package.json
+19 verbose installManyTop reading scoped package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/reflect-metadata/package.json
+20 verbose installManyTop reading scoped package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/rxjs/package.json
+21 verbose installManyTop reading scoped package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/systemjs/package.json
+22 verbose installManyTop reading scoped package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/typescript/package.json
+23 verbose installManyTop reading scoped package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/typings/package.json
+24 verbose installManyTop reading scoped package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/wordwrap/package.json
+25 verbose installManyTop reading scoped package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/zone.js/package.json
+26 verbose readDependencies loading dependencies from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/package.json
+27 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/angular2/package.json
+28 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/concurrently/package.json
+29 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/es6-promise/package.json
+30 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/es6-shim/package.json
+31 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/has-unicode/package.json
+32 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/lite-server/package.json
+33 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/minimist/package.json
+34 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/reflect-metadata/package.json
+35 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/rxjs/package.json
+36 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/systemjs/package.json
+37 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/typescript/package.json
+38 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/typings/package.json
+39 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/wordwrap/package.json
+40 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/zone.js/package.json
+41 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/.bin/concurrent/package.json
+42 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/.bin/concurrently/package.json
+43 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/.bin/lite-server/package.json
+44 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/.bin/tsc/package.json
+45 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/.bin/tsserver/package.json
+46 verbose targetResolver reading package data from /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/.bin/typings/package.json
+47 verbose already installed skipping es6-promise@^3.0.2 /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app
+48 verbose already installed skipping es6-shim@^0.33.3 /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app
+49 verbose already installed skipping reflect-metadata@0.1.2 /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app
+50 verbose already installed skipping rxjs@5.0.0-beta.2 /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app
+51 verbose already installed skipping zone.js@0.5.15 /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app
+52 verbose already installed skipping concurrently@^2.0.0 /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app
+53 verbose already installed skipping lite-server@^2.1.0 /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app
+54 verbose already installed skipping typescript@^1.7.5 /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app
+55 verbose already installed skipping angular2@2.0.0-beta.7 /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app
+56 verbose already installed skipping systemjs@0.19.22 /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app
+57 silly install resolved []
+58 info build /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app
+59 info linkStuff angular2-basic@1.0.0
+60 silly linkStuff angular2-basic@1.0.0 has /home/sadlil/go/src/github.com/sadlil/experiments/angular2 as its parent node_modules
+61 verbose linkBins angular2-basic@1.0.0
+62 verbose linkMans angular2-basic@1.0.0
+63 verbose rebuildBundles angular2-basic@1.0.0
+64 verbose rebuildBundles [ '.bin',
+64 verbose rebuildBundles   'angular2',
+64 verbose rebuildBundles   'concurrently',
+64 verbose rebuildBundles   'es6-promise',
+64 verbose rebuildBundles   'es6-shim',
+64 verbose rebuildBundles   'has-unicode',
+64 verbose rebuildBundles   'lite-server',
+64 verbose rebuildBundles   'minimist',
+64 verbose rebuildBundles   'reflect-metadata',
+64 verbose rebuildBundles   'rxjs',
+64 verbose rebuildBundles   'systemjs',
+64 verbose rebuildBundles   'typescript',
+64 verbose rebuildBundles   'typings',
+64 verbose rebuildBundles   'wordwrap',
+64 verbose rebuildBundles   'zone.js' ]
+65 verbose rebuild bundle /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/has-unicode
+66 info build /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/has-unicode
+67 info preinstall has-unicode@2.0.1
+68 info linkStuff has-unicode@2.0.1
+69 silly linkStuff has-unicode@2.0.1 has /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules as its parent node_modules
+70 verbose linkBins has-unicode@2.0.1
+71 verbose linkMans has-unicode@2.0.1
+72 verbose rebuildBundles has-unicode@2.0.1
+73 info install has-unicode@2.0.1
+74 info postinstall has-unicode@2.0.1
+75 verbose rebuild bundle /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/minimist
+76 info build /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/minimist
+77 info preinstall minimist@1.2.0
+78 info linkStuff minimist@1.2.0
+79 silly linkStuff minimist@1.2.0 has /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules as its parent node_modules
+80 verbose linkBins minimist@1.2.0
+81 verbose linkMans minimist@1.2.0
+82 verbose rebuildBundles minimist@1.2.0
+83 info install minimist@1.2.0
+84 info postinstall minimist@1.2.0
+85 verbose rebuild bundle /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/typings
+86 info build /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/typings
+87 info preinstall typings@2.0.0
+88 info linkStuff typings@2.0.0
+89 silly linkStuff typings@2.0.0 has /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules as its parent node_modules
+90 verbose linkBins typings@2.0.0
+91 verbose link bins [ { typings: 'dist/bin.js' },
+91 verbose link bins   '/home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/.bin',
+91 verbose link bins   false ]
+92 verbose linkMans typings@2.0.0
+93 verbose rebuildBundles typings@2.0.0
+94 silly gentlyRm /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/.bin/typings is being purged
+95 verbose gentlyRm don't care about contents; nuking /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/.bin/typings
+96 silly vacuum-fs purging /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/.bin/typings
+97 silly vacuum-fs quitting because other entries in /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/.bin
+98 info install typings@2.0.0
+99 info postinstall typings@2.0.0
+100 verbose rebuild bundle /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/wordwrap
+101 info build /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules/wordwrap
+102 info preinstall wordwrap@1.0.0
+103 info linkStuff wordwrap@1.0.0
+104 silly linkStuff wordwrap@1.0.0 has /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app/node_modules as its parent node_modules
+105 verbose linkBins wordwrap@1.0.0
+106 verbose linkMans wordwrap@1.0.0
+107 verbose rebuildBundles wordwrap@1.0.0
+108 info install wordwrap@1.0.0
+109 info postinstall wordwrap@1.0.0
+110 info install angular2-basic@1.0.0
+111 info postinstall angular2-basic@1.0.0
+112 verbose unsafe-perm in lifecycle true
+113 info angular2-basic@1.0.0 Failed to exec postinstall script
+114 verbose stack Error: angular2-basic@1.0.0 postinstall: `typings install`
+114 verbose stack Exit status 1
+114 verbose stack     at EventEmitter.<anonymous> (/home/sadlil/.nvm/versions/node/v4.5.0/lib/node_modules/npm/lib/utils/lifecycle.js:217:16)
+114 verbose stack     at emitTwo (events.js:87:13)
+114 verbose stack     at EventEmitter.emit (events.js:172:7)
+114 verbose stack     at ChildProcess.<anonymous> (/home/sadlil/.nvm/versions/node/v4.5.0/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+114 verbose stack     at emitTwo (events.js:87:13)
+114 verbose stack     at ChildProcess.emit (events.js:172:7)
+114 verbose stack     at maybeClose (internal/child_process.js:829:16)
+114 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+115 verbose pkgid angular2-basic@1.0.0
+116 verbose cwd /home/sadlil/go/src/github.com/sadlil/experiments/angular2/basic-app
+117 error Linux 4.4.0-34-generic
+118 error argv "/home/sadlil/.nvm/versions/node/v4.5.0/bin/node" "/home/sadlil/.nvm/versions/node/v4.5.0/bin/npm" "install"
+119 error node v4.5.0
+120 error npm  v2.15.9
+121 error code ELIFECYCLE
+122 error angular2-basic@1.0.0 postinstall: `typings install`
+122 error Exit status 1
+123 error Failed at the angular2-basic@1.0.0 postinstall script 'typings install'.
+123 error This is most likely a problem with the angular2-basic package,
+123 error not with npm itself.
+123 error Tell the author that this fails on your system:
+123 error     typings install
+123 error You can get information on how to open an issue for this project with:
+123 error     npm bugs angular2-basic
+123 error Or if that isn't available, you can get their info via:
+123 error
+123 error     npm owner ls angular2-basic
+123 error There is likely additional logging output above.
+124 verbose exit [ 1, true ]
