@@ -26,5 +26,6 @@ _testmain.go
 */dist/
 *.iml
 go/cgo/lib/
-**/node_modules
+*/node_modules/
 **/dist
+**/node_modules
