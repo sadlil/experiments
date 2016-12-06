@@ -29,3 +29,4 @@ go/cgo/lib/
 */node_modules/
 **/dist
 **/node_modules
+**/*.class
