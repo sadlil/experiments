@@ -30,3 +30,4 @@ go/cgo/lib/
 **/dist
 **/node_modules
 **/*.class
+angular2/basic-app/app/.DS_Store
