@@ -21,7 +21,7 @@ func goRoutine(num int, stop chan struct{}, writechan chan int) {
 
 func main() {
 	stop := make(chan struct{})
-	write := make(chan  int)
+	write := make(chan int)
 	for i := 1; i <= 10; i++ {
 		go goRoutine(i, stop, write)
 	}
@@ -30,6 +30,6 @@ func main() {
 	if ok {
 		fmt.Println("Finishes", res)
 		close(stop)
-		time.Sleep(time.Second*2)
+		time.Sleep(time.Second * 2)
 	}
 }
