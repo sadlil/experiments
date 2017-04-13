@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	"github.com/sadlil/experiments/grpc-examples/_proto"
-	"github.com/sadlil/experiments/grpc-examples/pkg"
+	"github.com/sadlil/experiments/grpc/server-stream/_proto"
+	"github.com/sadlil/experiments/grpc/server-stream/pkg"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

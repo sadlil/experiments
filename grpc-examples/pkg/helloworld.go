@@ -2,7 +2,7 @@ package pkg
 
 import (
 	"fmt"
-	"github.com/sadlil/grpc-examples/_proto"
+	"github.com/sadlil/experiments/grpc-examples/_proto"
 	"golang.org/x/net/context"
 )
 

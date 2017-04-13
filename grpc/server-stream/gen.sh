@@ -8,6 +8,8 @@ RETVAL=0
 ROOT=$PWD
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+ALIAS="Mappscode/api/annotations.proto=github.com/grpc-ecosystem/grpc-gateway/third_party/appscodeapis/appscode/api"
+
 clean() {
 	(find . | grep pb.go | xargs rm) || true
 	(find . | grep pb.gw.go | xargs rm) || true
@@ -21,7 +23,8 @@ gen_proto() {
   protoc -I /usr/local/include -I . \
          -I ${GOPATH}/src/github.com \
          -I ${GOPATH}/src/github.com/googleapis/googleapis/ \
-         --go_out=plugins=grpc:. *.proto
+         -I ${GOPATH}/src/github.com/grpc-ecosystem/grpc-gateway/third_party/appscodeapis \
+         --go_out=plugins=grpc,${ALIAS}:. *.proto
 }
 
 gen_gateway_proto() {
@@ -32,7 +35,8 @@ gen_gateway_proto() {
   protoc -I /usr/local/include -I . \
          -I ${GOPATH}/src/github.com \
          -I ${GOPATH}/src/github.com/googleapis/googleapis/ \
-         --grpc-gateway_out=logtostderr=true:. *.proto
+         -I ${GOPATH}/src/github.com/grpc-ecosystem/grpc-gateway/third_party/appscodeapis \
+         --grpc-gateway_out=logtostderr=true,${ALIAS}:. *.proto
 }
 
 gen_server_protos() {
