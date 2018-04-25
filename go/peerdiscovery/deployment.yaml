@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: peerdiscovery
+  labels:
+    app: peerdiscovery
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: peerdiscovery
+  template:
+    metadata:
+      labels:
+        app: peerdiscovery
+    spec:
+      containers:
+      - name: peerdiscovery
+        image: sadlil/exp-peerdiscovery:1.0
+        ports:
+        - containerPort: 9999
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: peerdiscovery
+spec:
+  selector:
+    app: peerdiscovery
+  ports:
+  - name: peer
+    protocol: TCP
+    port: 9999
+    targetPort: 9999
