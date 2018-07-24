@@ -2,14 +2,14 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   labels:
-    name: withoutsleep
-  name: withoutsleep
+    name: withsleep
+  name: withsleep
   namespace: default
 spec:
   replicas: 1
   selector:
     matchLabels:
-      name: withoutsleep
+      name: withsleep
   strategy:
     rollingUpdate:
       maxSurge: 1
@@ -18,12 +18,12 @@ spec:
   template:
     metadata:
       labels:
-        name: withoutsleep
+        name: withsleep
       annotations:
         prometheus.io/scrape: "true"
         prometheus.io/port: "9090"
     spec:
       containers:
-      - image: sadlil/experiments:cpuonsleep-wos
+      - image: sadlil/experiments:cpuonsleep-ws
         imagePullPolicy: IfNotPresent
-        name: withoutsleep
+        name: withsleep

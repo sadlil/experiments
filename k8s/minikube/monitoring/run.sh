@@ -17,11 +17,6 @@ kubectl create -f prometheus-service.yaml
 kubectl get services --namespace=monitoring
 kubectl get deployments --namespace=monitoring
 
-# show the dashboard
-minikube dashboard
-
-# show node ports under services for prometheus. exposes
-
 # show prometheus service
 
 minikube service --namespace=monitoring prometheus

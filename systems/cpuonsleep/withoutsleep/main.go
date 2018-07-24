@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("unning without sleep")
+	fmt.Println("running without sleep")
 	loop()
 }
 

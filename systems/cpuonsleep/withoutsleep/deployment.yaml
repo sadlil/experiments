@@ -1,0 +1,29 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    name: withoutsleep
+  name: withoutsleep
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: withoutsleep
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        name: withoutsleep
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "9090"
+    spec:
+      containers:
+      - image: sadlil/experiments:cpuonsleep-wos
+        imagePullPolicy: IfNotPresent
+        name: withoutsleep
