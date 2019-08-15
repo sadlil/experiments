@@ -24,6 +24,10 @@ check() {
     docker image remove localhost:5000/alpine:test
 }
 
+logs() {
+    docker logs -f registry
+}
+
 RETVAL=0
 if [ $# -eq 0 ]; then
   echo "No Target specified"
@@ -39,6 +43,9 @@ case "$1" in
     ;;
   check)
     check
+    ;;
+  logs)
+    logs
     ;;
   *)
     (10)
