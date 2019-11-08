@@ -1,23 +1,46 @@
+// //+build a
+
 package main
 
 import (
 	"bufio"
 	"fmt"
 	"os"
+	"sort"
 )
 
 func solve() {
-	var n int64
-	Readf("%d", &n)
+	var N int
+	Readf("%d\n", &N)
+	for i := 0; i < N; i++ {
+		var q int
+		Readf("%d\n", &q)
 
-	var st string
-	Readf("%s", &st)
+		var arr = make([]int, 0)
+		for j := 0; j < q; j++ {
+			var x int
+			Readf("%d ", &x)
+			arr = append(arr, x)
+		}
 
-	//var flags = make([]int64, 12)
-	for i := int64(0); i < n; i++ {
-		val := st[i] - '0'
-		Writef("%v", val)
+		sort.Ints(arr)
+
+		var count = 1
+		for j := 1; j < q; j++ {
+			if abs(arr[j-1]-arr[j]) == 1 {
+				count++
+				break
+			}
+		}
+		Writef("%d\n", count)
 	}
+}
+
+func abs(x int) int {
+	if x < 0 {
+		return -x
+	}
+	return x
 }
 
 func main() {

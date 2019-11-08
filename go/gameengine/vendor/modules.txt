@@ -1,0 +1,17 @@
+# github.com/faiface/glhf v0.0.0-20181018222622-82a6317ac380
+github.com/faiface/glhf
+# github.com/faiface/mainthread v0.0.0-20171120011319-8b78f0a41ae3
+github.com/faiface/mainthread
+# github.com/faiface/pixel v0.8.0
+github.com/faiface/pixel
+github.com/faiface/pixel/pixelgl
+# github.com/go-gl/gl v0.0.0-20190320180904-bf2b1f2f34d7
+github.com/go-gl/gl/v3.3-core/gl
+# github.com/go-gl/glfw v0.0.0-20190409004039-e6da0acd62b1
+github.com/go-gl/glfw/v3.2/glfw
+# github.com/go-gl/mathgl v0.0.0-20190713194549-592312d8590a
+github.com/go-gl/mathgl/mgl32
+# github.com/pkg/errors v0.8.1
+github.com/pkg/errors
+# golang.org/x/image v0.0.0-20190321063152-3fc05d484e9f
+golang.org/x/image/math/f32

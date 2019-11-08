@@ -1,3 +1,5 @@
+//+build b
+
 package main
 
 import (
@@ -7,17 +9,7 @@ import (
 )
 
 func solve() {
-	var n int64
-	Readf("%d", &n)
 
-	var st string
-	Readf("%s", &st)
-
-	//var flags = make([]int64, 12)
-	for i := int64(0); i < n; i++ {
-		val := st[i] - '0'
-		Writef("%v", val)
-	}
 }
 
 func main() {
